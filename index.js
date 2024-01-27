@@ -6,7 +6,7 @@ const app= express();
 
 //route handler , will be calle anytime a request comes into the '/' route
 app.get('/',(req,res)=>{
-  res.send({hi: "there"});
+  res.send({Hola: 'there'});
 });
 
 
